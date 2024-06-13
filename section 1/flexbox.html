@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <style>
+
+        *{
+            font-family: Montserrat;
+        }
+        .card{
+            display: flex;
+            border: 2px solid green;
+            height: 90vh;
+        }
+        .prod-img{
+             border: 2px solid blue;
+             width: 50%;
+             background-image: url(https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-ferarcosn-190819.jpg&fm=jpg);
+             background-size: cover;
+             background-position: center;
+        }
+
+        .prod-content{
+            border: 2px solid red;
+            width: 50%;
+            padding: 50px;
+        }
+        .details{
+            display: flex;
+            gap: 20px;
+        }
+        .details-name{
+            font-weight: bold;
+        }
+        .prod-price{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .card-btn{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="prod-img">
+            <h2>product image</h2>
+        </div>
+        <div class="prod-content">
+            <h4 class="brand" >Apple</h4>
+            <h2>Axiom</h2>
+            <p>Model AX878-54E</p>
+            <hr>
+            <div class="details">
+                 <p class="details-name">Movement</p>
+                 <p class="details-value">Eco-drive h504</p>
+            </div>           
+             <div class="details">
+                 <p class="details-name">Ccase size</p>
+                 <p class="details-value">43 mm</p>
+            
+           </div>    
+             <div class="details">
+                 <p class="details-name">colour</p>
+                 <p class="details-value">grey</p>
+            
+           </div>    
+             <div class="details">
+                 <p class="prod-prize">₹2399</p>
+                 
+                 
+                 <button class="cart-btn">ADD TO CART</button>
+                 <button class="fav-btn"></button>
+                 
+                
+            
+           </div>    
+                    
+         </div>
+    </div>
+    
+</body>
+</html> 
